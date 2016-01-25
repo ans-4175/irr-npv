@@ -1,0 +1,28 @@
+{
+  "name": "irr-npv",
+  "version": "1.0.0",
+  "description": "node module for finance irr npv",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.test.js -gc -u tdd --timeout 600"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ans-4175/irr-npv.git"
+  },
+  "keywords": [
+    "finance",
+    "irr",
+    "npv"
+  ],
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4"
+  },
+  "author": "ans4175 <ans4175@gmail.com> (http://ans-4175.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ans-4175/irr-npv/issues"
+  },
+  "homepage": "https://github.com/ans-4175/irr-npv"
+}
