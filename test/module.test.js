@@ -9,7 +9,8 @@ describe('IRR-NPV', function() {
   it('should calculate pv', function(){
   	var fpv = 1000 * Math.pow(1.1,1)
   	var pv = irrnpv.pv(fpv,0.1,1)
-  	expect(Math.ceil(pv)).to.equal(1000);
+    var expected = Math.ceil(pv)
+  	expect(expected).to.equal(1000);
   });
   it('should calculate npv', function(){
   	var moneys = [1000,1000]
