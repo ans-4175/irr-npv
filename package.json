@@ -1,6 +1,6 @@
 {
   "name": "irr-npv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node module for finance irr npv",
   "main": "index.js",
   "scripts": {
