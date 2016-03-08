@@ -1,4 +1,5 @@
 # IRR-NPV
+[![Build Status](https://travis-ci.org/ans-4175/irr-npv.svg?branch=master)](https://travis-ci.org/ans-4175/irr-npv)
 
 Node JS modules for calculating net present value and internal return rate of a series.
 Install it with `npm install irr-npv`
